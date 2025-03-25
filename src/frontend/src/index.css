@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+}
+
+.app-header {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-heading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.booking-list {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.booking-card {
+  border-left: 4px solid;
+  margin-bottom: 15px;
+}
+
+.booking-pending {
+  border-color: #ffc107;
+}
+
+.booking-completed {
+  border-color: #28a745;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+
+.nav-tabs .nav-link {
+  color: #4caf50;
+}
+
+.btn-primary {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+
+.btn-primary:hover {
+  background-color: #3e8e41;
+  border-color: #3e8e41;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  padding: 3px 6px;
+  border-radius: 50%;
+  background-color: #dc3545;
+  color: white;
+  font-size: 0.7rem;
+} 
